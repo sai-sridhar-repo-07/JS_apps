@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+body{
+    background-image: url("./images/joanna-kosinska-0CQfTLOVTPU-unsplash.jpg");
+    width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(62, 60, 60);
+}
+
+.countdown-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+    text-align: center;
+    min-width: 100px;
+
+}
+
+.box:hover, h1:hover{
+    color: black;
+    opacity: 0.9;
+}
+
+span{
+    align-self: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 4.5rem;
+    margin-top: -5rem;
+    /* margin-top: -15rem; */
+}
+
+.big-text{
+    font-size: 6rem;
+}
