@@ -42,4 +42,12 @@ successBtn.addEventListener("click", () => {
   successContainer.classList.toggle("active");
   emailId.value = "";
   addPara.textContent = "";
+  para.classList.remove("active");
+  emailId.classList.remove("active");
 });
+
+// emailId.addEventListener("change", () => {
+//   alert("heyvgchgcsdghcs");
+//   para.classList.remove("active");
+//   emailId.classList.remove("active");
+// });
