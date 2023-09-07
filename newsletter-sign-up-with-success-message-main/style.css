@@ -52,13 +52,13 @@ body{
 
 .container .left-box h1{
     position: relative;
-    font-size: 3rem;
-    margin-top: 5px;
+    font-size: 2.7rem;
+    /* margin-top: 5px; */
     width: 100%;
 }
 
 .container .left-box .desc{
-    font-size: 0.9rem;
+    font-size: 0.87rem;
 }
 
 .container .left-box ul{
@@ -70,7 +70,11 @@ body{
     display: flex;
     align-items: center;
     gap: 5px;
-    font-size: 0.9rem;
+    font-size: 0.87rem;
+}
+
+.container .left-box ul li img{
+    transform: scale(0.75);
 }
 
 .container .left-box .form{
@@ -197,7 +201,10 @@ body{
 }
 
 .success.active div h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
+}
+.success.active div p{
+    font-size: 0.9rem;
 }
 
 
@@ -219,3 +226,70 @@ body{
     background: hsl(234, 29%, 20%);
 }
 
+
+@media screen and (max-width: 400px){
+
+    body{
+        background: #fff;
+    }
+    
+    .container{
+        position: relative;
+        /* background: #fff; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px;
+    }
+
+    .left-box{
+        position: relative;
+        top: 140px;
+        /* background: #fff; */
+        z-index: 1000;
+        width: 100%;
+        border-radius: 0;
+        padding: 20px;
+    }
+    .right-box{
+        position: absolute;
+        width: 100%;
+        top: -400px;
+        right: 0;
+        /* height: 600px; */
+        /* overflow: hidden; */
+        padding: 0;
+        object-fit: cover;
+
+    }
+
+    .right-box img{
+        transform: scale(1);
+        
+        
+    }
+
+    .container .left-box h1{
+        font-size: 2rem;
+        margin-top: 0;
+    }
+
+    .container .left-box .desc {
+        font-size: 0.8rem;
+    }
+
+    .container .left-box ul li {
+        
+        font-size: 0.8rem;
+    }
+
+    .container .left-box ul li img{
+        transform: scale(0.85);
+    }
+
+
+    
+}
