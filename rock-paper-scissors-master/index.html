@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="main-container">
+      <div class="rule-b">
+        <div class="rules-box">
+          <h1>Rules</h1>
+          <img class="rules-img" src="/images/image-rules.svg" alt="rules" />
+          <img class="close-btn" src="/images/icon-close.svg" alt="close" />
+        </div>
+      </div>
+      <div class="header-arena">
+        <h1 class="game-title">
+          Rock <br />
+          Paper <br />
+          Scissor
+        </h1>
+        <div class="score-board">
+          <p class="score-title">Score</p>
+          <p class="score-number">0</p>
+        </div>
+      </div>
+      <div class="game-arena">
+        <div class="top-arena">
+          <div class="top-left">
+            <img
+              class="option scissors"
+              src="/images/icon-scissors.svg"
+              alt="scissors"
+            />
+          </div>
+          <div class="top-right">
+            <img
+              class="option paper"
+              src="/images/icon-paper.svg"
+              alt="paper"
+            />
+          </div>
+        </div>
+        <div class="bottom-arena">
+          <div class="bottom-center">
+            <img
+              class="option rock"
+              src="/images/icon-rock.svg"
+              alt="scissors"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="game-in-action">
+        <div class="left-game">
+          <img class="left" src="" alt="" />
+          <p class="left-title">You</p>
+        </div>
+        <div class="right-game">
+          <img class="right" src="" alt="" />
+          <p class="right-title">Computer</p>
+        </div>
+        <div class="wingame">
+          <p class="win">You Win</p>
+          <p class="lose">You Lose</p>
+          <button class="play-again">Play Again</button>
+        </div>
+      </div>
+
+      <button class="rules">Rules</button>
+    </section>
+    <!-- Score Rules You Picked The House Picked You Win You Lose Play Again -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
